@@ -1,0 +1,67 @@
+### CSS Files
+
+### src/Components/Home.css
+```css
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.home-content {
+  text-align: center;
+  background: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.home-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.home-content p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.button-group button {
+  padding: 15px 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-group .btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.button-group .btn-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.button-group .btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.button-group .btn-success:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+```
